@@ -10,7 +10,8 @@ public class Empleado extends Persona{
 
     public void mostrarPuesto(){
         // Error: 'nombre' tiene acceso privado en la clase base 'Persona' y no se puede acceder con super por encapsulamiento
-        // System.out.println("Nombre: "+super.nombre);
+//         System.out.println("Nombre: "+super.nombre);
+        super.mostrarNombre();
         System.out.println("Puesto: "+puesto);
     }
 }
